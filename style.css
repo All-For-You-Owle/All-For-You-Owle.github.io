@@ -1,0 +1,150 @@
+
+html, body {
+    margin: 0;
+    background-color: #9e6669;
+}
+
+.page {
+    min-width: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Lora', serif;
+    opacity: .7;
+}
+
+.header__image {
+    background-image: url(../img/owle1.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.image__all {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header__title {
+    margin: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.title__border {
+    padding: 15px 0;
+    background-color: #132019;
+}
+
+.poema {
+    margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #fff;
+}
+
+.poema__title {
+    color: #132019;
+    margin: 10px auto 0;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.poema__text {
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 1.3;
+    color: #132019;
+}
+
+.image__block {
+    margin: 0;
+}
+
+.image_1 {
+    margin: 0;
+    min-height: 400px;
+    background-image: url(../img/owle4.jpg);
+    position: relative;
+    background-position: top;
+}
+
+.image__title {
+    margin: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+
+.image_2 {
+    margin: 0;
+    height: 100vh;
+    background-image: url(../img/owle2.jpg);
+    position: relative;
+    background-position: top;
+}
+
+.my-words {
+    margin: 0;
+    background-image: url(../img/owle5.jpeg);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color:#fff;
+}
+
+.my-words__title {
+    margin: 10px auto 0;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my-words__text {
+    margin: 10px 20px 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 1.3;
+}
+
+.me {
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+@media(min-width: 600px) {
+  .header__image, .image_1, .image_2, .my-words{
+      background-attachment: scroll;
+  }
+}
