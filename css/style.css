@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     background-color: #9e6669;
@@ -46,8 +47,13 @@ html, body {
 
 .poema {
     margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #fff;
 }
 
@@ -106,8 +112,13 @@ html, body {
 .my-words {
     margin: 0;
     background-image: url(../img/owle5.jpeg);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     color:#fff;
 }
 
